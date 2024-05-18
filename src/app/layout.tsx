@@ -10,8 +10,8 @@ config.autoAddCss = false
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "maulafaizz personal web",
-  description: "",
+  title: "Maula Faiz",
+  description: "Personal Website",
 };
 
 export default function RootLayout({

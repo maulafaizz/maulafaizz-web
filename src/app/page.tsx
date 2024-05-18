@@ -3,7 +3,7 @@ import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <main className="flex flex-col text-center p-24">
+    <main className="flex flex-col text-center p-24 bg-black">
       <div>
         <p>Hi, I&apos;m Maula</p>
         <br></br>
@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="mt-6">
         <p>Let&apos;s get in touch!</p>
-        <div className="flex flex-row justify-center gap-4">
+        <div className="flex flex-row justify-center gap-4 mt-4">
           <a href="https://x.com/maulafaizz" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="fa-3x" icon={ faXTwitter } />
           </a>

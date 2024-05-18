@@ -3,7 +3,7 @@ import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <main className="flex flex-col text-center p-24 bg-black">
+    <main className="flex flex-col text-center p-24">
       <div>
         <p>Hi, I&apos;m Maula</p>
         <br></br>

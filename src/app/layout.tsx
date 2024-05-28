@@ -5,6 +5,7 @@ import "./globals.css";
 // Fontawesome config
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import NavBar from "@/component/NavBar";
 config.autoAddCss = false
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NavBar></NavBar>
+        {children}
+      </body>
     </html>
   );
 }

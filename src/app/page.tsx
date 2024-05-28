@@ -5,25 +5,24 @@ import NavBar from '@/component/NavBar';
 export default function Home() {
   return (
     <>
-      <NavBar></NavBar>
       <main className="flex flex-col text-center p-24">
-        <div>
-          <p>Hi, I&apos;m Maula</p>
-          <br></br>
-          <p className="text-justify lg:text-center">Software engineer with 4+ years experience. I&apos;ve worked with various tech stack and language from python, go, and mainly java.</p>
+      <div>
+        <p>Hi, I&apos;m Maula</p>
+        <br></br>
+        <p className="text-justify lg:text-center">Software engineer with 4+ years experience. I&apos;ve worked with various tech stack and language from python, go, and mainly java.</p>
+      </div>
+      <div className="mt-6">
+        <p>Let&apos;s get in touch!</p>
+        <div className="flex flex-row justify-center gap-4 mt-4">
+          <a href="https://x.com/maulafaizz" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon className="fa-3x" icon={ faXTwitter } />
+          </a>
+          <a href="https://github.com/maulafaizz" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon className="fa-3x" icon={ faGithub } />
+          </a>
         </div>
-        <div className="mt-6">
-          <p>Let&apos;s get in touch!</p>
-          <div className="flex flex-row justify-center gap-4 mt-4">
-            <a href="https://x.com/maulafaizz" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className="fa-3x" icon={ faXTwitter } />
-            </a>
-            <a href="https://github.com/maulafaizz" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon className="fa-3x" icon={ faGithub } />
-            </a>
-          </div>
-        </div>
-      </main>
+      </div>
+    </main>
     </>
     
   );

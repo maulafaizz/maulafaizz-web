@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
-import NavBar from '@/component/NavBar';
 
 export default function Home() {
   return (
